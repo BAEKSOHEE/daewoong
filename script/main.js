@@ -5,9 +5,9 @@ $(document).ready(function(){
 
       // 2.  gnb메뉴 클릭시 해당 서브메뉴 보이게 하기
       gnb.click(function(){
-        //$('.sub').hide();//보이는 서브 숨기고
-        //선택한 서브만 보이게한다.
-        //$(this).next().show();
+        $('.sub').hide();//보이는 서브 숨기고
+        // 선택한 서브만 보이게한다.
+        $(this).next().show();
 
         //선택한 메뉴의 서브를 보이게 하거나 숨기고 다른 서브는 모두 숨김
         //$(this).next().toggle().parent().siblings().find('.sub').hide();
