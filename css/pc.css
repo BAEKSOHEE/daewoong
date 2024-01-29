@@ -41,7 +41,7 @@
     transition:0.5s;
   }
   .sub li:hover a{
-    background-color:#ff8900;color:#fff;
+    background-color:#E98300;color:#fff;
 		text-decoration:none;
   }
   .gnb li:first-child .sub a, .gnb li:nth-child(2) .sub a{
@@ -94,7 +94,7 @@
     width:20px;
   }
   .visual .sns li:hover{background:#fff;}
-  .visual .sns li:hover .fab{color:#ff8900;}
+  .visual .sns li:hover .fab{color:#E98300;}
   /* 좌, 우버튼 서식 */
   .visual .s_btn{
     display:flex;
@@ -146,7 +146,7 @@
   /* 공지사항 뉴스 목록 */
   .news_list{width:535px;}
   .news_list i.fa-circle{
-    color:#ff9d00;
+    color:#E98300;
 		padding-right:6px;
 		font-size:16px;
   }
@@ -180,22 +180,31 @@
   }
   .tab_con_wrap > li > a:hover{text-decoration:none;}
   .tab_con h2{font-size:32px;font-weight:bold;padding-bottom:20px;}
-  .act{background:#f36f21 !important;}
+  .act{background:#E98300 !important;}
   .tab_con_wrap dt{
 		font-size:24px;
 		font-weight:bold;
     margin: 10px 0px 10px;
 	}
-	.tab_con_wrap dd{
-    font-size:18px;line-height:190%;
+	.tab_con_wrap dd{width: 1200px;
+    font-size:18px;line-height:30%;
   color: #db8000; padding-bottom: 2%;}
+  .tab_con_wrap dd ul{width: 100px; display: flex; color: #333;}
+  .tab_con_wrap dd ul li{
+    padding-right: 80px;
+    width: 180px;
+  }
+  .tab_con_wrap dd ul li img{width: 180px; height: 160px; padding-bottom: 10px;}
   .cont{
     position:absolute;display:none;
     width:70%;left:20px;top:90px;
-    color: #333;
   }
-  .cont img{width:1200px;}
-
+  .text{font-size: 13px; display: flex; flex-direction: column; line-height: 20px;}
+  .text1, .text1-1{color: #fff; width: 60px; padding: 5px; border-radius: 10px;}
+  .text1{background: #A5D15E;}
+  .text1-1{background: #6CA0C2 !important;}
+  .text1-2{background: #FCC501; color: #fff; width: 73px; padding: 5px; border-radius: 10px;}
+  .text2{font-weight: bold; font-size: 15px; padding: 5px 0px 5px;}
   /* 4. 인기제품 서식 */
   .best_product{
     width:100%;
@@ -250,7 +259,7 @@
   .e_txt p{font-size:16px; line-height: 30px;}
 
   /* 6. 미에로 스토리 갤러리 */
-  .gallery{background:#f36f21;}
+  .gallery{background:#E98300;}
   .gallery article{width:1200px;margin:0px auto;padding:60px 0px;
   }
   .gallery article > h2{
@@ -384,15 +393,15 @@
   address{
     display:flex;
     justify-content:space-between;
-    height:70px;
+    height:80px;
   }
   address h2 {
     padding:10px 0px 0px 5%;
   }
   address h2 a img{width: 40%;}
   address p{
-    padding-right:3%;
-    line-height:70px;
+    position: absolute;
+    right:3%;
   }
   footer .t_btn{
 		position:fixed;
@@ -509,7 +518,7 @@
 
   /* 탭콘텐츠 서식 */
   .tab_con article{
-    width:100%;height:830px;
+    width:100%;height:1950px;
     background-size:400px;
     background-position: center bottom;
   }
@@ -517,7 +526,9 @@
   .tab_con_wrap{
     display: block; padding-top: 20px;}
 
+  .tab_con_wrap dd{width: 100%; line-height: 20px;}
   .tab_con article > h2{text-align: center;}
+  .tab_con_wrap dd ul{flex-direction: column;}
   .tab_con_wrap > li > a{
     display: block;
     line-height: 180%;
@@ -528,6 +539,7 @@
       position: static;
       width: 100%;
     }
+
 
   /* 뉴스콘텐츠 서식 */
   .news_con{

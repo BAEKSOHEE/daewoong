@@ -307,4 +307,10 @@ $(document).ready(function(){
       $('html, body').animate({'scrollTop':'0px'},500);
       return false;
     });
+
+    // 랜덤 이미지
+    var images = ['con1.png', 'con1-1.png'];
+    $('.random').css({'img': 'url(./images/' + images[Math.floor(Math.random()*images.length)]+')'});
+
+
   });
