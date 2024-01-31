@@ -308,9 +308,12 @@ $(document).ready(function(){
       return false;
     });
 
-    // 랜덤 이미지
-    var images = ['con1.png', 'con1-1.png'];
-    $('.random').css({'img': 'url(./images/' + images[Math.floor(Math.random()*images.length)]+')'});
+    
 
 
   });
+
+
+  // 랜덤배너
+  let ran_n = Math.ceil(Math.random()*4);
+  document.getElementById('banner_img').src="./images/back"+ran_n+".jpg";
