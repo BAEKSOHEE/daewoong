@@ -108,7 +108,7 @@ main { }
 .news_list li a { font-size: 16px; } 
 
 /* 3. 탭콘텐츠 서식 */
-.tab_con { background: #e0e0e0; } 
+.tab_con { background: #fffae7; } 
 
 .tab_con article { width: 1200px; height: 600px; margin: 0px auto; /* background:url('../images/dwimgs.png') no-repeat right; */
  background-size: 600px; } 
@@ -131,15 +131,15 @@ main { }
 
 .tab_con_wrap dd { width: 100%; font-size: 18px; line-height: 30%; color: #db8000; padding-bottom: 2%; } 
 
-.tab_con_wrap dd ul { width: 100px; display: flex; color: #333; } 
+.tab_con_wrap dd ul {width: 100%; display: flex; color: #333; } 
 
-.tab_con_wrap dd ul li {  width: 180px; } 
+.tab_con_wrap dd ul li {  width: 20%; margin: 0px 20px 0px 20px;} 
 
-.tab_con_wrap dd ul li img { width: 180px; height: 160px; padding-bottom: 10px; } 
+.tab_con_wrap dd ul li img { width: 180px; padding-bottom: 10px; } 
 
-.cont { position: absolute; display: none; width: 70%; left: 20px; top: 90px; } 
+.cont { position: absolute; display: none; width: 100%; left: 20px; top: 90px; } 
 
-.text { font-size: 13px; display: flex; flex-direction: column; line-height: 20px; } 
+.text {font-size: 13px; display: flex; flex-direction: column; line-height: 20px; } 
 
 .text1, .text1-1 { color: #fff; width: 60px; padding: 5px; border-radius: 10px; } 
 
@@ -152,7 +152,7 @@ main { }
 .text2 { font-weight: bold; font-size: 15px; padding: 5px 0px 5px; } 
 
 /* 4. 인기제품 서식 */
-.best_product { width: 100%; background: #71BADB; padding: 60px 0px; color: #fff; } 
+.best_product { width: 100%; background: #99cfe7; padding: 60px 0px; color: #fff; margin-top: 6%;} 
 
 .best_product article { width: 1200px; margin: 0px auto; } 
 
@@ -306,13 +306,15 @@ footer .t_btn { position: fixed; right: 20px; bottom: 120px; z-index: 2000; disp
  .news_con article { height: auto; } 
 
  /* 탭콘텐츠 */
+ .tab_con article{width: 100%;}
  .tab_con { height: 650px; } 
 
- .tab_con_wrap dd ul li { padding-right: 10px; } 
+ .tab_con_wrap dd ul li { padding-right: 10px; margin: 0px 2% 0px 2%; } 
 
- .tab_con_wrap dd ul li img { width: 150px; } 
+ .tab_con_wrap dd ul li img { width: 130px; } 
 
  .tab_con_wrap dd { width: 100%; line-height: 20px; } 
+
 
  /* 이벤트 */
  .event { margin: 0px; } 
@@ -410,7 +412,7 @@ footer .t_btn { position: fixed; right: 20px; bottom: 120px; z-index: 2000; disp
  .visual .s_btn { top: 85%; } 
 
  /* 탭콘텐츠 서식 */
- .tab_con article { width: 100%; height: 1300px; background-size: 400px; background-position: center bottom; } 
+ .tab_con article { width: 100%; height: 200%; background-size: 400px; background-position: center bottom; } 
 
  .tab_con article>h2 { text-align: center; } 
 
@@ -424,10 +426,13 @@ footer .t_btn { position: fixed; right: 20px; bottom: 120px; z-index: 2000; disp
 
  .tab_con_wrap>li>a { display: block; line-height: 180%; } 
 
- .tab_con_wrap dd ul li img { width: 100%; padding-right: 10px; } 
+ .tab_con_wrap dd ul li img { width: 35%; padding-right: 10px; } 
 
- .tab_con_wrap dd ul li { display: flex; width: 350px;}
- 
+ .tab_con_wrap dd ul li { display: flex; width: 100%;}
+ .text{width: 50%;}
+ .text span{display: block; width: 100%;}
+ .text1, .text1-1 { color: #fff; width: 100%; padding: 5px; border-radius: 10px; } 
+.text1{text-align: center;}
 
  
 

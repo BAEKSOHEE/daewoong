@@ -149,7 +149,7 @@ $(document).ready(function(){
       let tab_mnu = $('.tab_con_wrap > li > a');
 
       tab_mnu.click(function(){
-        $(this).next().show().parent().siblings().find('div').hide();
+        $(this).next().show().parent().siblings().find('.cont').hide();
         $(this).addClass('act').parent().siblings().find('a').removeClass('act');
 
         // //li태그의 인덱스 번호를 구하여
