@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>대웅제약 반응형웹</title>
+  <!-- 초기화 -->
+  <link href="./css/reset.css" rel="stylesheet" type="text/css">
+  <!-- 공통서식 (글꼴, 크기, 색상, 링크)-->
+  <link href="./css/base.css" rel="stylesheet" type="text/css">
+  <!-- pc화면 해상도일때 적용되는 서식 -->
+  <link href="./css/pc.css" rel="stylesheet" type="text/css">
+  <!-- tablet화면 해상도일때 적용되는 서식 -->
+  <link href="./css/tablet.css" rel="stylesheet" type="text/css">
+  <!-- mobile화면 해상도일때 적용되는 서식 -->
+  <link href="./css/mobile.css" rel="stylesheet" type="text/css">
+
+  <!-- 아이콘폰트 주소 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- 파비콘 이미지 삽입하기 -->
+  <link href="./images/qjhMbM4e.ico" type="image/x-icon" rel="shortcut icon">
+</head>
+<body>
+  
+  <!-- 헤더영역 시작 -->
+  <header>
+    <h1>
+      <a href="index.html" title="메인페이지로 바로가기">
+        <img src="./images/ci-symbol.png" alt="상단로고"> 대웅제약
+      </a>
+    </h1>
+
+    <!-- 모바일 버전에서 나오는 토글버튼(햄버거) -->
+    <div id="toggle">
+      <span>&nbsp;</span>
+      <span>&nbsp;</span>
+      <span>&nbsp;</span>
+    </div>
+
+    <!-- 메인메뉴 -->
+    <nav class="gnb">
+      <ul>
+        <li><a href="#" title="기업소개">기업소개<i class="fas fa-angle-down"></i></a>
+          <ul class="sub">
+            <li><a href="#" title="기업개요">기업개요</a></li>
+            <li><a href="#" title="CEO 인사말">CEO 인사말</a></li>
+            <li><a href="#" title="대웅 WAY">대웅 WAY</a></li>
+            <li><a href="#" title="관계사">관계사</a></li>
+            <li><a href="#" title="글로벌네트워크">글로벌네트워크</a></li>
+            <li><a href="#" title="연혁">연혁</a></li>
+            <li><a href="#" title="오시는길">오시는길</a></li>
+          </ul>
+        </li>
+        <li><a href="#" title="제품소개">제품소개<i class="fas fa-angle-down"></i></a>
+          <ul class="sub">
+            <li><a href="#" title="제품">제품</a></li>
+            <li><a href="#" title="제품검색">제품검색</a></li>
+            <li><a href="#" title="제품소식">제품소식</a></li>
+            <li><a href="#" title="판매약국찾기">판매약국찾기</a></li>
+          </ul>
+        </li>
+        <li><a href="#" title="연구개발">연구개발<i class="fas fa-angle-down"></i></a>
+          <ul class="sub">
+            <li><a href="#" title="연구소">연구소</a></li>
+            <li><a href="#" title="연구개발과제">연구개발과제</a></li>
+            <li><a href="#" title="주요연구실적">주요연구실적</a></li>
+            <li><a href="#" title="세포치료제 CDMO사업">세포치료제 CDMO사업</a></li>
+          </ul>
+        </li>
+        <li><a href="#" title="ESG">ESG<i class="fas fa-angle-down"></i></a>
+          <ul class="sub">
+            <li><a href="#" title="지속가능 경영보고서">지속가능 경영보고서</a></li>
+            <li><a href="#" title="Environmental">Environmental</a></li>
+            <li><a href="#" title="Social">Social</a></li>
+            <li><a href="#" title="Governance">Governance</a></li>
+          </ul>
+        </li>
+        <li><a href="#" title="투자정보">투자정보<i class="fas fa-angle-down"></i></a>
+          <ul class="sub">
+            <li><a href="#" title="지속가능 경영보고서">투자정보</a></li>
+            <li><a href="#" title="제무정보">제무정보</a></li>
+            <li><a href="#" title="주가정보">주가정보</a></li>
+            <li><a href="#" title="공시정보">공시정보</a></li>
+            <li><a href="#" title="IR">IR</a></li>
+          </ul>
+        </li>
+        <li><a href="#" title="뉴스룸">뉴스룸<i class="fas fa-angle-down"></i></a>
+          <ul class="sub">
+            <li><a href="#" title="보도자료">보도자료</a></li>
+            <li><a href="#" title="홍보영상">홍보영상</a></li>
+            <li><a href="#" title="공지사항">공지사항</a></li>
+            <li><a href="#" title="미디어룸">미디어룸</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- 메인영역 시작 -->
+  <main>
+    <!-- 1. 메인슬라이드 -->
+    <article class="visual">
+      <h2>메인슬라이드</h2>
+      <div class="slide1">
+        <span>건강한 세상을 만드는<br>글로벌 R&D 혁신의 중심</span>
+        <img src="./images/main.jpg" alt="메인이미지1">
+      </div>
+      <div class="slide2">
+        <span>인류와 사회가 행복한<br>지속가능한 가치 실현</span>
+        <img src="./images/main01.jpg" alt="메인이미지2">
+      </div>
+      <div class="slide3">
+        <span>차별화된 네트워크로<br>글로벌 헬스케어 그룹 도약</span>
+        <img src="./images/main02.jpg" alt="메인이미지3">
+      </div>
+
+      <!-- 공통 ui구성요소 sns, 콘트롤버튼, 좌,우버튼 -->
+      <!-- sns아이콘 -->
+      <ul class="sns">
+        <li><a href="#" title="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#" title="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" title="#"><i class="fab fa-youtube"></i></a></li>
+      </ul>
+
+      <!-- 좌, 우 방향버튼 -->
+      <ul class="s_btn">
+        <li><img src="./images/left.png" alt="이전버튼"></li>
+        <li><img src="./images/right.png" alt="다음버튼"></li>
+      </ul>
+
+      <!-- 콘트롤버튼 -->
+      <ul class="ctrl_btn">
+        <li class="on">&nbsp;</li>
+        <li>&nbsp;</li>
+        <li>&nbsp;</li>
+      </ul>
+    </article>
+
+    <!-- 2. 뉴스콘텐츠 -->
+    <section class="news_con">
+      <h2 class="none">소개</h2>
+      <article class="youtube">
+        <h2>
+          <span>대웅제약을 소개합니다.</span>
+          대웅제약 기업PR 영상
+        </h2>
+
+        <iframe src="https://www.youtube.com/embed/TyZd3BMCNVk?si=Lk2rV8MpmkqGgq6R" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </article>
+
+      <article class="news_list">
+        <h2>
+          <span>대웅제약의 최신 소식을 전해드립니다.</span>
+          보도자료
+        </h2>
+        <ul>
+          <li><i class="far fa-circle"></i>
+            <a href="#" title="뉴스">“대웅제약 임팩타민 새 옷 입혀주세요”… 임팩타민 패키지 디자인 공모전 진행</a>
+          </li>
+          <li><i class="far fa-circle"></i>
+            <a href="#" title="뉴스">대웅제약 지사제 ‘스타빅’ 시장점유율 64%... 3개월 연속 1위</a>
+          </li>
+          <li><i class="far fa-circle"></i>
+            <a href="#" title="뉴스">대웅제약, KMI한국의학연구소와 'AI 심전도 검사' 대중화 나선다</a>
+          </li>
+          <li><i class="far fa-circle"></i>
+            <a href="#" title="뉴스">우루사 ‘NEW 간 때문이야' 송은 진화 중... 대웅 임직원 참여 '뮤비 버전' 나왔다</a>
+          </li>
+          <li><i class="far fa-circle"></i>
+            <a href="#" title="뉴스">“청룡의 기운 담았습니다”… 대웅제약 ‘에너씨슬 퍼펙트샷’, 설 특별 '보자기' 에디션 선보여</a>
+          </li>
+          <li><i class="far fa-circle"></i>
+            <a href="#" title="뉴스">대웅제약, LG화학 ‘제미다파’ 공동 판매… 당뇨병 치료제 라인업 강화</a>
+          </li>
+          <li><i class="far fa-circle"></i>
+            <a href="#" title="뉴스">대웅제약 ‘에너씨슬 퍼펙트샷’, 출시 8개월 200만병 돌파...프리미엄 비타민 시장 대세로 자리잡아</a>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- 3. 탭콘텐츠 -->
+    <section class="tab_con">
+      <h2 class="none">탭콘텐츠</h2>
+      <article>
+        <h2>고객의 건강한 삶을 위한 기술 가치를 창조합니다.</h2>
+        <ul class="tab_con_wrap">
+          <li>
+            <a href="#" title="일반의약품" class="act">일반의약품</a>
+            <div class="cont">
+              <dl>
+                <dt>일반의약품</dt>
+                <dd>식약처의 효능효과를 허가받은 의약품으로 약국에서 약사와의 상담을 통해 구입할 수 있습니다.</dd>
+                <dd>
+                  <ul>
+                    <li>
+                      <img src="./images/con1_1.png" alt="">
+                      <div class="text">
+                        <span class="text1">일반의약품</span>
+                        <span class="text2">대웅우루사 연질캡슐</span>
+                        <span class="text3">효능·효과 : 만성 간질환의 간기능 개선, 간기능 장애에 의한 다음 증상의 개선 : 육체피로, 전신권태</span>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./images/con1_2.png" alt="">
+                      <div class="text">
+                        <span class="text1">일반의약품</span>
+                        <span class="text2">임팩타민 시그니처 정</span>
+                        <span class="text3">효능·효과 :1. 다음 경우의 비타민 D, E, B1, B2, B6, C의 보급 - 육체피로 - 임신 · 수유기 - 병중...</span>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./images/con1_3.png" alt="">
+                      <div class="text">
+                        <span class="text1">일반의약품</span>
+                        <span class="text2">이지엔6 나이트 연질캡슐</span>
+                        <span class="text3">효능·효과 : 통증으로 인한 일시적인 불면을 동반하는 급성 야간통증</span>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./images/con1_4.png" alt="">
+                      <div class="text">
+                        <span class="text1">일반의약품</span>
+                        <span class="text2">임팩타민 프리미엄 정</span>
+                        <span class="text3">효능·효과 : 육체피로, 체력저하, 눈의피로, 구내염, 신경통/근육통/관절통 등</span>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./images/con1_5.png" alt="">
+                      <div class="text">
+                        <span class="text1">일반의약품</span>
+                        <span class="text2">이지엔6 이브 연질캡슐</span>
+                        <span class="text3">효능·효과 : 월경통(생리통), 두통, 치통, 인후(목구멍)통, 신경통 등의 진통</span>
+                      </div>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <a href="#" title="전문의약품">전문의약품</a>
+            <div class="cont">
+              <dl>
+                <dt>전문의약품</dt><dd>의사의 처방에 따라 용법 및 용량에 대한 전문적 진단과 감독 아래 의사의 처방이 필요한 의약품입니다.</dd>
+                <dd>
+                  <ul>
+                    <li>
+                      <img src="./images/con2-1.png" alt="">
+                      <div class="text">
+                        <span class="text1-1">전문의약품</span>
+                        <span class="text2">펙수클루정</span>
+                        <span class="text3">효능·효과 : 미란성 위식도역류질환의 치료</span>
+                      </div>
+                    </li>
+                    <li class="con_small">
+                      <img src="./images/con2-2.png" alt="">
+                      <div class="text">
+                        <span class="text1-1">전문의약품</span>
+                        <span class="text2">엔블로 정</span>
+                        <span class="text3">효능·효과 : 제 2형 당뇨병 환자의 혈당조절을 향상시키기 위해 식사요법 및 운동요법의 보조제로 투여</span>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./images/con2-3.png" alt="">
+                      <div class="text">
+                        <span class="text1-1">전문의약품</span>
+                        <span class="text2">나보타 주 100단위</span>
+                        <span class="text3">효능·효과 : 만 20세 이상 65세 이하의 성인에 있어서 눈썹주름근(corrugator muscle) 그..</span>
+                      </div>
+                    </li>
+                    <li class="con_small">
+                      <img src="./images/con2-4.png" alt="">
+                      <div class="text">
+                        <span class="text1-1">전문의약품</span>
+                        <span class="text2">리토바젯 정</span>
+                        <span class="text3">효능·효과 : 원발성 고콜레스테롤혈증 또는 혼합형 이상지질혈증 환자의 상승된 총 콜레스테롤 감소</span>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./images/con2-5.png" alt="">
+                      <div class="text">
+                        <span class="text1-1">전문의약품</span>
+                        <span class="text2">대웅졸레드론산 주사액 5mg/100ml</span>
+                        <span class="text3">효능·효과 : 골다공증의 치료, 폐경 후 여성의 골다공증 예방, 글루코코르티코이드에 의한 골다공..</span>
+                      </div>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <a href="#" title="건강기능식품">건강기능식품</a>
+            <div class="cont">
+              <dl>
+                <dt>건강기능식품</dt>
+                <dd>기능성을 가진 원료/성분을 사용하여 제조 가공한 식품으로 온/오프라인 판매처에서 구입할 수 있습니다.</dd>
+                <dd>
+                  <ul>
+                    <li>
+                      <img src="./images/con3-1.png" alt="">
+                      <div class="text">
+                        <span class="text1-2">건강기능식품</span>
+                        <span class="text2">이지엔6프로 연질캡슐 30CP</span>
+                        <span class="text3">효능·효과 : 염증, 통증 및 발열을 수반하는 감염증, 류마티스성 관절염</span>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./images/con3-2.png" alt="">
+                      <div class="text">
+                        <span class="text1-2">건강기능식품</span>
+                        <span class="text2">렛잇비프로</span>
+                        <span class="text3">효능·효과 : 육체피로, 체력저하, 눈의피로, 구내염, 신경통/근육통/관절통 등</span>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./images/con3-3.png" alt="">
+                      <div class="text">
+                        <span class="text1-2">건강기능식품</span>
+                        <span class="text2">마그온플러스</span>
+                        <span class="text3">효능·효과 : 체력 저하시 비타민 E, B1, B6 의 보급. 말초혈행장애 및 갱년기시 다음 증상의 완화 : 어깨...</span>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./images/con3-4.png" alt="">
+                      <div class="text">
+                        <span class="text1-2">건강기능식품</span>
+                        <span class="text2">니코프리패취 3단계</span>
+                        <span class="text3">효능·효과 : 니코틴보충을 감소시키는데 적용</span>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="./images/con3-5.png" alt="">
+                      <div class="text">
+                        <span class="text1-2">건강기능식품</span>
+                        <span class="text2">이지엔6 이브 연질캡슐 30CP</span>
+                        <span class="text3">효능·효과 : 월경통(생리통), 요통, 두통, 치통, 인후(목구멍)통, 신경통, 근육통 등의 진통</span>
+                      </div>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- 4. 인기제품 -->
+    <section class="best_product">
+      <h2 class="none">인기제품</h2>
+      <article>
+        <h2 class="title2">BEST 제품</h2>
+      
+      <!-- ul>li*4>img+h3+p -->
+      <ul>
+        <li>
+          <img src="./images/best1.png" alt="대웅우루사 연질캡슐">
+          <h3>대웅우루사 연질캡슐</h3>
+          <p>만성 간질환의 간기능 개선, 간기능 장애에 의한 다음 증상의 개선 : 육체피로, 전신권태</p>
+        </li>
+        <li>
+          <img src="./images/best2.png" alt="미에로화이바">
+          <h3>이지엔6 이브 연질캡슐</h3>
+          <p>월경통(생리통), 두통, 치통, 인후(목구멍)통, 신경통 등의 진통 완화</p>
+        </li>
+        <li>
+          <img src="./images/best3.png" alt="임팩타민 시그니처 정">
+          <h3>임팩타민 시그니처 정</h3>
+          <p>육체피로, 눈의피로, 체력저하, 어깨결림에 효과적. 비타민 D, E, B1, B2, B6, C의 보급. 신경, 근육, 관절 통증완화, 구각염, 구순염, 구내염, 설염, 습진, 피부염. 염증완화, 아연보급</p>
+        </li>
+        <li>
+          <img src="./images/best4.png" alt="펙수클루 정">
+          <h3>펙수클루 정</h3>
+          <p>미란성 위식도역류질환의 치료</p>
+        </li>
+      </ul>
+      </article>
+    </section>
+
+    <!-- 5. 이벤트 1170*256     746*256-->
+    <section class="event">
+      <h2 class="title2">주요 연구과제</h2>
+      <article class="e_slide">
+        <div class="es_wrap">
+          <div>
+            <a href="#" title="#"><img src="./images/back1.jpg" alt="" id="banner_img">
+              <div class="e_txt">
+                <span>2023</span>
+                <h3>주요 연구실적</h3>
+                <p>- 미란성역류질환치료제 펙수클루 멕시코 품목허가 획득</p>
+                <p>- 당뇨질환치료제 엔블로 메트포르민 복합제, 엔블로멧 출시</p>
+                <p>- 세포기반 인공혈액 제조 및 실증 플랫폼 기술개발사업 과제 선정</p>
+                <p>- 자가면역질환치료제 신약 DWP213388 글로벌 기술수출</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="#" title="#"><img src="./images/back2.jpg" alt="">
+              <div class="e_txt">
+                <span>2022</span>
+                <h3>주요 연구실적</h3>
+                <p>- 당뇨질환치료제 신약 이나보글리플로진 인슐린 병용 3상 IND 승인</p>
+                <p>- ‘DWP708’ EGF 크림제 임상 2상 IND 승인</p>
+                <p>- 핀테라퓨틱스와 단백질 분해 기술 신약 공동연구 MOU 체결</p>
+                <p>- 당뇨병 치료제 신약 이나보글리플로진 3제 병용 임상 3상 성공</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="#" title="#"><img src="./images/back3.jpg" alt="">
+              <div class="e_txt">
+                <span>2021</span>
+                <h3>주요 연구실적</h3>
+                <p>- 'DWRX2003', 생산장비 구축 정부과제 선정</p>
+                <p>- 첨단바이오의약품 제조업 허가 취득</p>
+                <p>- ‘브이올렛’ 국내 유일 턱밑 지방 개선 주사제 발매</p>
+                <p>- 섬유증 신약 ‘DWN12088’ 美 FDA 희귀의약품 추가 지정</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </article>
+      <i class="fas fa-angle-left"></i>
+      <i class="fas fa-angle-right"></i>
+    </section>
+
+    <!-- 6. 스토리 갤러리 -->
+    <section class="gallery">
+      <h2 class="none">최신 보도자료</h2>
+      <article>
+        <h2>최신 보도자료</h2>
+		<div class="girl">
+			<figure>
+				<a href="#" title="#">
+					<img src="./images/board01.jpg" alt="">
+				</a>
+				<figcaption>
+					<a href="#" title="#">
+						<h6>대웅제약, ‘화합물 8억 종’ 전처리 거쳐 DB화… 독자적 AI 신약 시스템 결합해 비만∙항암 연구에 ‘속도’</h6>
+						<span>소식보기</span>
+					</a>
+				</figcaption>
+			</figure>
+
+			<figure>
+				<a href="#" title="#">
+					<img src="./images/board02.jpg" alt="">
+				</a>
+				<figcaption>
+					<a href="#" title="#">
+						<h6>대웅제약 ‘펙수클루’, 출시 1년 6개월만에 24개국 뚫었다… 전세계 항궤양제 시장의 40% 규모</h6>
+						<span>소식보기</span>
+					</a>
+				</figcaption>
+			</figure>
+
+			<figure>
+				<a href="#" title="#">
+					<img src="./images/board03.png" alt="">
+				</a>
+				<figcaption>
+					<a href="#" title="#">
+						<h6>대웅제약 ‘코스메위크 도쿄 2024' 참가… 스킨케어∙반려동물 헬스케어 제품 선봬</h6>
+            <span>소식보기</span>
+					</a>
+				</figcaption>
+			</figure>
+
+			<figure>
+				<a href="#" title="#">
+					<img src="./images/board04.jpg" alt="">
+				</a>
+				<figcaption>
+					<a href="#" title="#">
+						<h6>대웅 유튜브, 곰 캐릭터 '아르미' 선봬며 MZ세대 소통 강화... “귀여운 게 최고약”</h6>
+            <span>소식보기</span>
+					</a>
+				</figcaption>
+			</figure>
+
+			<figure>
+				<a href="#" title="#">
+					<img src="./images/board05.jpg" alt="">
+				</a>
+				<figcaption>
+					<a href="#" title="#">
+						<h6>대웅제약 ‘신약 공장'에 감탄한 '브라질 식약처' 실사단...“지적사항 제로”</h6>
+            <span>소식보기</span>
+					</a>
+				</figcaption>
+			</figure>
+
+			<figure>
+				<a href="#" title="#">
+					<img src="./images/board06.jpg" alt="">
+				</a>
+				<figcaption>
+					<a href="#" title="#">
+						<h6>“청룡의 기운 담았습니다”… 대웅제약 ‘에너씨슬 퍼펙트샷’, 설 특별 '보자기' 에디션 선봬</h6>
+						<span>소식보기</span>
+					</a>
+				</figcaption>
+			</figure>
+
+			<figure>
+				<a href="#" title="#">
+					<img src="./images/board07.jpg" alt="">
+				</a>
+				<figcaption>
+					<a href="#" title="#">
+						<h6>대웅제약, 인니서 줄기세포 치료제 생산·연구 거점 확보… 글로벌 시장 공략 박차</h6>
+						<span>소식보기</span>
+					</a>
+				</figcaption>
+			</figure>
+
+			<figure>
+				<a href="#" title="#">
+					<img src="./images/board08.jpg" alt="">
+				</a>
+				<figcaption>
+					<a href="#" title="#">
+						<h6>대웅제약 ’임팩타민 시그니처’ 출시…”피로케어 영역 뇌까지 확대”</h6>
+						<span>소식보기</span>
+					</a>
+				</figcaption>
+			</figure>
+
+			<figure class="none_gallery">
+				<a href="#" title="#">
+					<img src="./images/board09.jpg" alt="">
+				</a>
+				<figcaption>
+					<a href="#" title="#">
+						<h6>대웅제약, 국산 신약 '펙수클루∙엔블로' 들고 ‘CPHI 2023’ 참가… 글로벌 수출길 확대</h6>
+						<span>소식보기</span>
+					</a>
+				</figcaption>
+			</figure>
+
+		</div>
+      </article>
+    </section>
+  </main>
+
+  <!-- 푸터영역 시작 -->
+  <footer>
+    <a href="#" title="위로 바로가기" class="t_btn">
+      <img src="./images/top_up.png" alt="위로 바로가기">
+    </a>
+
+    <div class="f_inner">
+      <nav>
+        <dl>
+					<dt><a href="#" title="기업소개">기업소개</a></dt>
+					<dd><a href="#" title="기업개요">기업개요</a></dd>
+          <dd><a href="#" title="대웅 WAY">대웅 WAY</a></dd>
+          <dd><a href="#" title="오시는길">오시는길</a></dd>
+				</dl>
+        <dl>
+					<dt><a href="#" title="개인정보처리방침">개인정보처리방침</a></dt><dd></dd>
+				</dl>
+				<dl>
+					<dt><a href="#" title="이용약관">이용약관</a></dt><dd></dd>
+				</dl>
+				<dl>
+					<dt><a href="#" title="사이트맵">사이트맵</a></dt><dd></dd>
+				</dl>		
+				<dl>
+					<dt><a href="#" title="고객지원">고객지원</a></dt><dd></dd>
+				</dl>
+				
+        <dl class="sns">
+					<dt>Connect with us</dt>
+					<dd>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+					</dd>
+				</dl>
+      </nav>
+    </div>
+    <address>
+      <span>      
+        <a href="index.html" title="메인페이지로 바로가기">
+        <img src="./images/logo_f.png" alt="하단로고">
+        </a>
+      </span>
+      <p id="copy">copyright&copy; 2024 DAEWOONG PHARMACEUTICAL CO.,LTD. All rights reserverd.</p>
+    </address>
+  </footer>
+
+  <!-- 제이쿼리 라이브러리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <script src="./script/main.js"></script>
+
+</body>
+</html>
